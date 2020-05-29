@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public  class PetrolEngine implements IEngine {
 	
 	public PetrolEngine () {
-		System.out.println("Engine constructor but ambigity");
+		System.out.println("PetrolEngine constructor but ambigity::but called by primary");
 	}
 
 	@Override
